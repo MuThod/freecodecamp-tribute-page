@@ -1,5 +1,49 @@
+#main {
+	text-align: center;
+	background-color: #cccccc;
+	color: #000000;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#img-div {
+	background-color: #2f4e6f;
+	color: #c8d7e3;
+	padding: 15px;
+	margin: auto;
+	max-width: 800px;
+}
+
+#img-caption {
+	font-size: 0.75em;
+	margin: 5px;
+	font-style: italic;
+}
+
 #image {
   max-width: 100%;
   height: auto;
-  margin: auto auto auto auto;
+}
+
+#tribute-info {
+	max-width: 800px;
+	margin: auto;
+}
+
+#tribute-quote {
+	background-color: #e15119;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+dt {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 15px 5px 0px 5px;
+}
+
+footer {
+	max-width: 800px;
+	margin: auto;
 }
