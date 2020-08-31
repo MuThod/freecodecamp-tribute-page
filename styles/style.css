@@ -10,7 +10,8 @@
 	color: #c8d7e3;
 	padding: 15px;
 	margin: auto;
-	max-width: 800px;
+	max-width: 650px;
+	border-radius: 10px;
 }
 
 #img-caption {
@@ -33,6 +34,15 @@
 
 #tribute-quote {
 	background-color: #e15119;
+	max-width: 550px;
+	margin: 15px auto 15px auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #2f4e6f;
+}
+
+#tribute-quote p {
+	margin: 0px 0px 10px 0px;
 }
 
 h2 {
@@ -48,4 +58,17 @@ dt {
 footer {
 	max-width: 800px;
 	margin: auto;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+#subtitle {
+	font-weight: bold;
 }

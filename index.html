@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <header>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>Tribute Page</title>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
-  </header>
+  </head>
   <body id="main">
     <main>
       <header>
         <h1 id="title">Tim Berners Lee</h1>
-        <h2>The man who connected the World</h2>
-        <div id="img-div">
+        <p id="subtitle">The man who connected the World</p>
+        <figure id="img-div">
           <img src="https://s2.qwant.com/thumbr/0x380/f/d/53ac326cc811dced590d1cd5ffc00b9447158325970855b99374c37ed4b7e4/0,,16578312_304,00.jpg?u=http%3A%2F%2Fwww.dw.com%2Fimage%2F0%2C%2C16578312_304%2C00.jpg&q=0&b=1&p=0&a=1" alt="Tim Berners Lee" id="image"/>
           <figcaption id="img-caption">Tim Berners Lee speaking at a conference</figcaption>
-        </div>
+        </figure>
       </header>
       <section id="tribute-info">
+        <h2 class="sr-only">Biography</h2>
         <dl>
           <dt>1955</dt><dd>Born in London.</dd>
           <dt>1976</dt><dd>Graduate from the University of Oxford.</dd>
           <dt>1980</dt><dd>Work at CERN where he starts to develop the hypertext</dd>
           <dt>1984</dt><dd>Return to CERN.</dd>
           <dt>1989</dt><dd>Wrote a proposition to use hypertext over Internet, which was accepted. The World Wide Web was born.</dd>
-          <dt>1990</dt><dd>Publish the first <a src"http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Web site</a>.</dd>
+          <dt>1990</dt><dd>Publish the first <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Web site</a>.</dd>
           <dt>1991</dt><dd>Develop the softwares for the first Web server and the first Web browser.</dd>
           <dt>1994</dt><dd>Found the W3C at the Massachusetts Institute of Technology.</dd>
           <dt>2001</dt><dd>Become a patron of the East Dorset Heritage Trust.</dd>
@@ -35,14 +36,18 @@
           <dt>2016</dt><dd>Received the ACM Turing Award <cite>"for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale"</cite>.</dd>
         </dl>
       </section>
-      <footer>
+      <div>
+        <h2 class="sr-only">Quote</h2>
         <blockquote id="tribute-quote">
-          <p><cite>He wove the World Wide Web and created a mass medium for the 21st century. The World Wide Web is Berners-Lee's alone. He designed it. He loosed it on the world. And he more than anyone else has fought to keep it open, nonproprietary and free.</cite></p>
+          <p>He wove the World Wide Web and created a mass medium for the 21st century. The World Wide Web is Berners-Lee's alone. He designed it. He loosed it on the world. And he more than anyone else has fought to keep it open, nonproprietary and free.</p>
           <footer>
-            Time magazine
+            Time magazine, <cite>Time 100: The Most Important People of the Century</cite>
           </footer>
         </blockquote>
-        <p>If you're looking for more information, you should read his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Wikipedia</a> entry.</p>
+      </div>
+      <footer>
+        <h2 class="sr-only">Further informations</h2>
+        <p>If you're looking for more information, you should read the <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners Lee's Wikipedia entry</a>.</p>
       </footer>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
